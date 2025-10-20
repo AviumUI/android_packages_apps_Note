@@ -1,0 +1,12 @@
+android_app_import {
+    name: "Note",
+    apk: "Note.apk",
+    presigned: true, 
+    preprocessed: true,
+    privileged: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    skip_preprocessed_apk_checks: true,
+    system_ext_specific: true,
+}
