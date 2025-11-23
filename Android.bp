@@ -3,9 +3,8 @@ android_app_import {
     apk: "Note.apk",
     presigned: true, 
     preprocessed: true,
-    privileged: true,
     dex_preopt: {
         enabled: true,
     },
-    system_ext_specific: true,
+    product_specific: true,
 }
